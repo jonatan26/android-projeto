@@ -1,0 +1,161 @@
+
+@charset 'utf-8';
+
+@font-face {
+    font-family:idroid ;
+    src: url('../fontes/idroid.otf') format('opentype');
+    width: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family= Bebas +Neue & display=swap');
+
+:root{
+    --verde-claro:#3CD983;
+    --verde-claro2:#2FA765;
+    --verde-escuro:#1C623A;
+    --verde-escuro2:#1A5C38;
+    --verde-fundo:#c7ebd7;
+    --verde-fundob:#0b1a11;
+    --cor-teste:#ece498f6;
+
+
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+    --font-cabeçalho:'Bebas Neue', cursive;
+    --font-titulos: 'idroid', cursive;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    font-family: var(--font-padrao);
+    background-color: var(--verde-claro);
+    
+
+}
+header{
+    background-image: linear-gradient(to bottom, var(--verde-claro), var(--verde-claro2), var(--verde-escuro));
+
+    
+    font-family: var(--font-cabeçalho);
+    text-align: center;
+    min-height: 150px;
+    color: white;
+    font-size:26px ;
+}
+header>h1{
+    margin-bottom: 25px;
+  
+}
+main h2{
+    font-family: var(--font-titulos);
+}
+header>p{
+    font-family: var(--font-padrao);
+    font-size: 15px;
+
+    max-width: 500px;
+    padding-bottom: 12px;
+    margin: auto;
+
+}
+nav{
+    background-color: var(--verde-escuro2);
+    padding-bottom: 8px;
+}
+nav>a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto;
+    text-align: justify;
+    padding: 20px;
+    
+
+}
+main>p{
+    font-size: 16px;
+    text-indent: 20px;
+}
+main img{
+    width: 100%;
+}
+main img#lol{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+ aside article>h3{
+    background-color: var(--verde-escuro2);
+    border-radius: 10px 10px 0px 0px;
+}
+aside article>p{
+    text-indent: 20px;
+}
+aside{
+    background-color: white;
+    
+    max-width: 640px;
+    padding-top: 10px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+ aside article {
+    background-color: var(--verde-fundo);
+    margin:20px;
+    border-radius: 0px 0px 12px 12px;
+    
+    
+  
+}
+aside article>p{
+    margin: 10px;
+}
+
+article ul{
+    list-style-position: inside;
+    columns: 2;
+}
+    
+
+    
+footer{
+    background-color: var(--verde-escuro);
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 16px;
+    
+}
+aside article>h3{
+    margin-bottom: 10px;
+}
+aside article>p{
+    font-size: 15px;
+    margin-top: 4px;
+    margin-bottom: 1px;
+}
+aside>p{
+    margin-left: 18px;
+    text-indent: 20px;
+}
+div.video{
+    background-color: #1A5C38;
+    padding: 20px 1px 20px 91px;
+    display: block;
+    margin: auto;
+}
+
+
+
